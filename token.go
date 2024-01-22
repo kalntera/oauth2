@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kalntera/oauth2/internal"
+	"golang.org/x/oauth2/internal"
 )
 
 // defaultExpiryDelta determines how earlier a token should be considered

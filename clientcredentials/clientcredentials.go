@@ -20,8 +20,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/kalntera/oauth2"
-	"github.com/kalntera/oauth2/internal"
+	"golang.org/x/oauth2"
+	"golang.org/x/oauth2/internal"
 )
 
 // Config describes a 2-legged OAuth2 flow, with both the

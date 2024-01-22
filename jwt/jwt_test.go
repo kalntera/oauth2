@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kalntera/oauth2"
-	"github.com/kalntera/oauth2/jws"
+	"golang.org/x/oauth2"
+	"golang.org/x/oauth2/jws"
 )
 
 var dummyPrivateKey = []byte(`-----BEGIN RSA PRIVATE KEY-----

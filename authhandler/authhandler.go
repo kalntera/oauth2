@@ -10,7 +10,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/kalntera/oauth2"
+	"golang.org/x/oauth2"
 )
 
 const (

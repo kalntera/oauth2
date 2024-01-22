@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kalntera/oauth2"
+	"golang.org/x/oauth2"
 )
 
 func ExampleConfig() {
